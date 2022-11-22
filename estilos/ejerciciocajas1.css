@@ -1,0 +1,7 @@
+body{background-color:   #d3d3d3;}
+h1{color:  #848489;}
+.caja1{border-style: dashed; background-color: #c6fffa;color: #6a8988; margin-left: 400px; margin-right: 400px; border-color: #769895;}
+.caja2{border-style: inset; background-color: #e0edf3;color: #5d76e0; margin-left: 900px;border-color:  #00008d;margin-top: 10px;margin-right: 200px;padding-left: 50px;}
+.caja3{border-style: solid; background-color: #ff99ff; color: #972289;margin-right: 830px; margin-top: 10px; padding-left: 200px;margin-left: 60px;}
+.caja4{border-style: dotted;background-color: #663366;color: white;margin-left: 900px;margin-right: 200px;margin-top: 10px;border-color: #ff3399;padding-left: 50px;border-width: 10px;}
+.caja5{border-style: dashed; background-color: #c6fffa;color: #6a8988; margin-left: 400px; margin-right: 400px; border-color: #769895;margin-top: 10px;}
