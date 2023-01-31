@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>ejercicio2</title>
+    <style>
+        select{
+            overflow:scroll;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        cosmetica profesional
+    </h1>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>formulario de pedido</legend>
+            <em>identificacion</em>
+            <fieldset>
+                <legend>datos del cliente</legend>
+                correo electronico: <input name="correo" type="text"/>
+                <br>
+                contrasena: <input name="contraseña" type="password"/>
+                <br>
+                <em>longitud minima de 6 caracteres</em>
+                <br>
+                direccion  de envio: <input name="direccion" type="text" minlength="6"/>
+                </fieldset>
+                datos del pedido
+                <fieldset>
+                    <legend>datos del producto</legend>
+                    <select name="desplegable">
+                        <optgroup label="solares">
+                            <option value="1">Sol-01 Solar Indice 8</option>
+                            <option value="2"> Sol-02 Solar Indice 15</option>
+                            <option value="3">Sol-03 Solar Indice 50</option>
+                        </optgroup>
+                        <optgroup label="labiales">
+                            <option value="1">Lab-01 Gloss Red</option>
+                            <option value="2">Lab-02 Gloss Brown</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>observaciones</legend>
+                    <textarea name="observaciones" rows="10" cols="30">deje aqui sus observaciones</textarea>
+                    <br>
+                    <input type="checkbox" id="novedades" name="desear" value="si"/>
+                    <label for="novedades">deseo recibir informacion sobre ofertas y novedades</label>
+                </fieldset>
+                <fieldset>
+                    <legend>datos bancarios</legend>
+                    numero de tarjeta: <input name="numero" type="text"/>
+                    fecha de caducidad: <input name="fecha" type="date"/>
+                </fieldset>
+        </fieldset>
+
+
+    </form>
+</body>
