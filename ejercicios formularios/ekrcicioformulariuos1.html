@@ -2,25 +2,36 @@
 <head>
     <title>formulario 1</title>
     <style>
-        div{
-            display: block;
-            
-        }
+        h1{color:#a84c55;}
+        body{background-color: #ffe4c4;}
+        fieldset{border: 5px solid #a84c55;}
+        input[type=text]{border:1px solid #e0a99b;}
+        label{color: #a84c55;}
+        input[type=reset],input[type=submit]{background-color: #a52a2a;padding: 10px 20px;margin: 20px 5px;border: 2px outset;}
+
     </style>
 </head>
 <body>
     <h1>datos del cliente</h1>
     <form action="#" method="get">
-        <div>Nombre: <input  name="user" type="text"/></div> 
-        <div>NIF: <input  name="identificacion" type="text"/></div> 
-        Tipo de habitacion:
+        <fieldset>
+        <label for="user">Nombre:</label> 
+        <br>
+        <input  name="user" id="user" type="text"/>
+        <br>
+        <label for="identificacion">NIF:</label> 
+        <br>
+        <input  name="identificacion" id="identificacion" type="text"/>
+        <br>
+        <label>Tipo de habitacion:</label>
         <div>individual <input  type="radio" name="tipo 1" value="individual"/></div> 
         <div>doble <input  type="radio" name="tipo 2" value="doble"/></div>
-        Opciones:
+        <label>Opciones:</label>
         <div>desayuno en la habitacion <input  type="checkbox" name="opcion1" value="desayuno"/></div>
         <div>jacuzzi <input  type="checkbox" name="opcion2" value="jacuzzi"/></div>
         <div>wifi <input  type="checkbox" name="opcion3" value="wifi"/></div>
         <input type="submit" value="enviar"/>
         <input type="reset" value="borrar"/>
+        </fieldset>
     </form>
 </body>
