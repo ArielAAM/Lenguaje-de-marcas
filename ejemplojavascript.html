@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Ejemplo javascript</title>
+    <script>
+        function reescribir(){
+            document.write("<h1>adios mundo</h1>");
+        }
+        function alerta(){
+            window.alert("merequetengue");
+        }
+        function validar(){
+            var x;
+            x = document.getElementById("numero").value;
+            if (isNaN(x) == 0){
+                if (x>0 && x<11){
+                    document.write("numero correcto");
+                }
+                else{
+                    document.write("numero incorrecto");
+                }
+            }else{
+                document.write("No has introducido un numero.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1 id="ola">Hola mundo</h1>
+    <button onclick="reescribir();alerta();">pulsa para reescribir</button>
+    <form>
+        Introduce un numero: <input type="text" name="numero" id="numero">
+        <input type="submit" value="enviar" name="enviar" onclick="validar();">
+        
+    </form>
+</body>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>Ejercicio2</title>
+    <script>
+        
+        function suma(){
+            var x;
+            var y;
+            var z;
+            var texto;
+            x = document.getElementById("numero1").value;
+            y = document.getElementById("numero2").value;
+            
+            
+            if (isNaN(x) == 0 && isNaN(y) == 0){
+                z = parseInt(x) + parseInt(y);
+               texto = "La suma de " + x + " y "+ y + " es: " + z;   
+            }
+            else{
+                texto = "No has introducido valores permitidos";
+            }
+            document.getElementById("text").innerHTML = texto;
+        }
+    </script>
+</head>
+<body>
+    <h1>Ejercicio2</h1>
+   
+        primer numero <input type="text" name="numero1" id="numero1">
+        segundo numero <input type="text" name="numero2" id="numero2">
+        <button  value="enviar" name="enviar" onclick="suma();">enviar</button>
+  
+    <p id="text"></p>
+</body>
