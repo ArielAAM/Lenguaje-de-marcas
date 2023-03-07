@@ -1,0 +1,23 @@
+img#foto{
+    float: right;
+    width: 20%;
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+}
+body{
+    background-color: grey;
+}
+footer{
+    background-color: blue;
+}
+section{
+    background-image: url(../imagenes/polish.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-image: url(../imagenes/maxwell.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

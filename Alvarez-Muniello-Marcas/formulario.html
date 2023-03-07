@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title>Examen segunda evaluacion</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="form" type="php" href="salida.php">
+</head>
+<body>
+    <h1><strong>Inscripcion Curso</strong></h1>
+    <form action="salida.php" method="POST">
+        <fieldset id="personal">
+            <legend>Datos Personales</legend>
+            Apellidos: <input type="text" name="apellidos">
+            Nombre: <input type="text" name="nombre">
+            <br>
+            DNI: <input type="text" name="dni" maxlength="9">
+            Edad: <input type="number" name="edad" min="0">
+            Sexo: 
+            <input type="radio" name="hombre" value="H">Hombre
+            <input type="radio" name="mujer" value="M">Mujer
+        </fieldset>
+        <fieldset id="complementario">
+            <legend>Datos complementarios</legend>
+            Nacido en:
+            <input type="text" name="localidad">
+            Provincia:
+            <select name="provincias">
+                <option value="asturias">asturias</option>
+                <option value="leon">Leon</option>
+                <option value="cantabria">cantabria</option>
+            </select>
+            Fecha nacimiento:
+            <input type="date" name="nacimiento">
+            <br>
+            Domicilio:
+            <select name="tipoCalle">
+                <option value="calle">Calle</option>
+                <option value="plaza">Plaza</option>
+                <option value="avenida">Avenida</option>
+            </select>
+            <input type="text" name="nombreCalle">
+            Codigo Postal:
+            <input type="text" name="codigoPostal" maxlength="5">
+        </fieldset>
+        <input type="reset" value="borrar todo">
+        <input type="submit" value="enviar">
+    </form>
+    <section id="advertencia">
+        <p>(*) Los datos personales contenidos en este proceso podrán ser incluidos en un fichero para su tratamiento por la consejeria de cultura y educacion</p>
+    </section>
+    <footer>
+        <pre> C O N S E J E R I A  D E  E D U C A C I O N  P R I N C I P A D O  D E  A S T U R I A S</pre>
+    </footer>
+</body>
