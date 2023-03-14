@@ -1,0 +1,54 @@
+
+
+.rojo {
+   
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background: red;
+	top: 15px;
+	left: 10px;	
+	border: black solid 1px;
+	z-index: 1;
+}
+
+.verde {
+	position: absolute;
+	background: green;
+   
+	width: 200px;
+	height: 200px;
+	
+	border: black solid 1px;
+	z-index: 0;
+	left: 70px;
+	top: 75px;
+}
+
+
+.gris {
+    
+	position: absolute;
+	background: gray;
+	width: 200px;
+	height: 200px;
+	left: 100px;
+	top: 100px;
+
+	border: black solid 1px;
+	z-index: 3;
+}
+
+.azul {
+    
+	width: 200px;
+	height: 200px;
+	
+	background: blue;
+	border: black solid 1px;
+	z-index: 2;
+	position: absolute;
+	left: 20px;
+	top: 30px;
+}
+

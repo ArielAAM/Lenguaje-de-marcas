@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>javascript 4</title>
+    <script>
+        function verificarclick(){
+            var opciones = document.getElementsByName("eleccion");
+
+            for (var i = 0; i < opciones.length;i++){
+                if(opciones[i].checked){
+                    document.getElementById("text").innerHTML=opciones[i].value;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    
+        si: <input type="radio" name="eleccion" value="si" onclick="verificarclick();">
+    <br>
+        no: <input type="radio" name="eleccion" value="no" onclick="verificarclick();">
+    <p id="text"></p>
+    
+</body>
