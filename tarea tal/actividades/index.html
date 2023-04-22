@@ -112,6 +112,10 @@
       #titulo{
         padding-top: 100px;
       }
+      .boton{
+        text-align: center;
+      }
+      
     </style>
 
     
@@ -171,17 +175,21 @@
 
     <div class="row align-items-md-stretch">
       <div class="col-md-6">
-        <div class="h-100 p-5 text-white  rounded-3; jumbo">
-          <h2>Change the background</h2>
-          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-          <button class="btn btn-outline-light" type="button">Example button</button>
+        <div class="h-100 p-5  rounded-3; jumbo">
+          <h2 class="text-center">Acuario</h2>
+          <p class="text-center">Visita el acuario para admirar los majestuosos tiburones!</p>
+          <div class="boton">
+            <a href="https://www.acuariogijon.es" class="btn btn-primary" role="button">Saber mas.</a>
+          </div>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="h-100 p-5  border rounded-3; jumbo">
-          <h2>Add borders</h2>
-          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
-          <button class="btn btn-outline-secondary" type="button">Example button</button>
+        <div class="h-100 p-5  border rounded-3 ; jumbo">
+          <h2 class="text-center">Metropoli</h2>
+          <p class="text-center">La convencion friki mas grande de Asturias. Del 30 de junio al 9 de julio.</p>
+          <div class="boton">
+            <a href="https://metropoligijon.com" class="btn btn-primary" role="button">Saber mas.</a>
+          </div>
         </div>
       </div>
     </div>
@@ -191,11 +199,13 @@
     <div id="secciones">
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+          <h2 class="featurette-heading fw-normal lh-1">El descenso del Sella.</h2>
+          <p>El Descenso del Sella en Canoa en Asturias desde Arriondas es la actividad de aventura y turismo activo más famosa de nuestra provincia.</p>
+          <p>Se trata de una divertida excursión por el río Sella, entre Arriondas, cerca de los Picos de Europa, y Llovio (localidad que está justo antes de Ribadesella).</p>
+          <p>El río Sella nace en los famosos Picos de Europa, mas concretamente en la Fuente del infierno. Este río desemboca en el mar cantábrico formando a su paso la ya conocida ría de Ribadesella en la que se puede realizar esta actividad.</p>
         </div>
         <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.loscauces.com/descenso-del-sella/?gclid=Cj0KCQjwi46iBhDyARIsAE3nVrb5KJcYRLdB8W37Iw4JPvWI8TmiTQSJsFw_wlyFv2wiUHQfn32CK1AaAtdbEALw_wcB"><img  src="../imagenes/sella.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></a>
         </div>
       </div>
   
@@ -203,11 +213,11 @@
   
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          <h2 class="featurette-heading fw-normal lh-1">Visita el Centro Niemeyer. </h2>
+          <p>Localizado en Aviles, el niemeyer es un centro cultural diseñado pro el brasileño Oscar Niemeyer, en el que se alojan todo tipo de espectaculos artisticos, desde exposiciones de arte hasta funciones de teatro y musicales.</p>
         </div>
         <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+          <a href="https://www.centroniemeyer.es" target="_blank" rel="noopener noreferrer"><img  src="../imagenes/niemeyer.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></a>
         </div>
       </div>
   
@@ -215,18 +225,18 @@
   
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-          <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+          <h2 class="featurette-heading fw-normal lh-1">Tour por la Oviedo de los misterios</h2>
+          <p>Visita guiada nocturna por el casco histórico de Oviedo explorando los distintos mitos y misterios que envuelven la region.</p>
         </div>
         <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+          <a href="https://serasturianu.com/tour/leyendas-oviedo-de-miedo/?gclid=Cj0KCQjwi46iBhDyARIsAE3nVrYNHH5MjezVObs8f_nAS_g6HDifYEzglhWbsmy7erhQH_MLiOecA6EaAkkvEALw_wcB" target="_blank" rel="noopener noreferrer"><img  src="../imagenes/oviedo.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></a>
         </div>
       </div>
     </div>
 
     <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
+    
 
   </div>
   <footer class="container">
