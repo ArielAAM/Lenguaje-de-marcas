@@ -80,3 +80,29 @@ body {
     margin-top: 7rem;
   }
 }
+body{
+  background-image: url(../imagenes/paraiso.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#secciones{
+  background-color: #97262a;
+  padding: 100px;
+  border-radius: 20px;
+  box-shadow: 20px 15px 20px black;
+}
+
+.jumbo{
+  background-color: #93cbc9;
+  border-radius: 15px;
+  box-shadow: 20px 15px 20px black;
+
+}
+.featurette-divider{border: 3px solid white; border-radius: 300px/10px; height: 0px; text-align: center;}
+#titulo{
+  padding-top: 100px;
+}
+.boton{
+  text-align: center;
+}

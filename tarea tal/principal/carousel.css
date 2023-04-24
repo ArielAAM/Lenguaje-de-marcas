@@ -80,3 +80,23 @@ body {
     margin-top: 7rem;
   }
 }
+body{
+  background-color: #97262a;
+}
+
+.seccion{
+background-color: #93cbc9;
+border-style: solid;
+box-shadow: 20px 15px 20px black;
+}  
+#botonform{
+margin-top:20px;
+margin-bottom: 20px;
+}
+#formReloj{
+margin-right: 50px;
+}
+#titulo{
+padding:20px;
+padding-left: 50px;
+}

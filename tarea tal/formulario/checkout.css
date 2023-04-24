@@ -1,3 +1,23 @@
 .container {
   max-width: 960px;
 }
+main{
+  background-color: #97262a;
+  margin-top: 100px;
+  color: white;
+  box-shadow: 20px 15px 20px black;
+
+}
+.formulario{
+  padding-left: 200px;
+  padding-bottom: 50px;
+  
+}
+
+body{
+  background-image: url(../imagenes/fondo-papel.avif);
+}
+
+#footer{
+  color: black;
+}
